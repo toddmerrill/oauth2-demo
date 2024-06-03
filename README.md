@@ -1,6 +1,6 @@
-# Welcome to the Oauth2 Demo App!
+# Welcome to the OAuth2 Demo App!
 
-This app shows a basic Spring Boot Oauth2 authentication flow using GitHub as the authenticator. 
+This app shows a basic Spring Boot OAuth2 authentication flow using GitHub as the authenticator. 
 I have deliberately avoided using Spring Security to demonstrate how the flow works.
 
 Very little error handling or testing is added and all the authenticating code is, unlike in a production app, 
