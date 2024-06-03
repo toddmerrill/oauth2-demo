@@ -6,15 +6,15 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.5</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
     <groupId>net.toddmerrill</groupId>
     <artifactId>oauth2-demo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>auth2-demo</name>
+    <version>1.0</version>
+    <name>oauth2-demo</name>
     <description>Simple Oauth2 implementation</description>
     <properties>
-        <java.version>17</java.version>
+        <java.version>21</java.version>
     </properties>
     <dependencies>
         <dependency>
