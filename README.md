@@ -4,7 +4,7 @@ This app shows a basic Spring Boot OAuth2 authentication flow using GitHub as th
 I have deliberately avoided using Spring Security to demonstrate how the flow works.
 
 Very little error handling or testing is added and all the authenticating code is, unlike in a production app, 
-located in the DemoController class to provide a single page to see what's happening.
+located in the [DemoController](src/main/java/com/toddmerrill/Auth2/demo/DemoController.java) class to provide a single page to see what's happening.
 
 The received access token is used to access the user's GitHub profile. The user name from GitHub is then displayed 
 on the page.
